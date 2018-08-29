@@ -1,0 +1,185 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+    background-color: #ededed;
+}
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+.brand{
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+}
+.banner-info{
+    background-color: #474747;
+    color: #a5a5a5;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: condensed;
+    padding: 1rem;
+}
+.banner-fact{
+    background-color: #2f549b;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    overflow: hidden;
+}
+.banner-fact img{
+    max-width: 50px;
+    float: left;
+    margin-left: 2rem;
+    padding: 0.5rem;
+}
+.banner-fact p{
+    float: right;
+    margin-right: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 19px;
+}
+.banner-fact span{
+    font-family:'Myriad Pro', sans-serif;
+    font-size: 2rem;
+    font-stretch: ultra-condensed;
+}
+.blocks{
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 1rem;
+}
+.blocks div{
+    margin-top: 4rem;
+    background-color: #fff;
+    padding: 1rem;
+}
+.blocks img{
+    width: 100px;
+}
+.blocks h2,h4{
+    color: #acb7d1;
+}
+.blocks p,small{
+    color: #909090;
+}
+.resource-head{
+    max-width: 280px;
+    height: 40px;
+    background-color: #2f549b;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 1.8rem;
+    margin:0 auto ;   
+    padding: 6px;
+    position: relative;
+    bottom: 50px;
+}
+.resource-head span{
+    padding: 0.5rem;
+}
+.resources{
+    text-align: center;
+    background-color: #c6c6c6;
+    padding: 1.8rem;
+}
+.resources h4{
+    color: #989898;
+}
+.resources img{
+    width: 100px;
+    margin-top: 1rem;
+}
+footer{
+    background-color: #474747;
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+}
+
+@media only screen and (min-width:1260px){
+    a :hover{
+        color:#ffb400;
+    }
+    .brand{
+        text-align: left;
+    }
+    .brand h1{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .box{
+        background-color: #474747;
+    }
+    .banner{
+        width: 1200px;
+        margin: 0 auto;
+    }
+      .banner-fact{
+        width: 302px;
+        position: absolute;
+        top: 4rem;
+        right: 4%;  
+    }
+    .blocks{
+        display: flex;
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .blocks div{
+        margin: 1rem;
+        -webkit-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+    }
+    .blocks :hover{
+        background-color: #2f549b;
+        transition: 0.5s;
+    }
+    .blocks :hover p{
+        color: #fff;
+    }
+
+    .blocks img{
+        padding: 1rem;
+    }
+    .blocks small{
+        text-decoration: underline;
+    }
+    .block-info{
+        padding: 1rem;
+    }
+    .block-2 img{
+        width: 90px;
+        margin-top: 10px;
+    }
+    .resource-body{
+        display: flex;
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .resource-body div{
+        padding: 1rem;
+        width: 300px;
+    }
+
+    .resource-body div:hover{
+        transition: all 0.5s;
+        background-color: #fff;
+
+    }
+
+    .resource-body div:hover h4{
+        transition: all 0.5s;
+        color: #2f549b;
+
+    }
+
+}
