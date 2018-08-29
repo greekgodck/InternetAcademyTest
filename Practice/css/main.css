@@ -127,6 +127,9 @@ footer{
         position: absolute;
         top: 4rem;
         right: 4%;  
+        -webkit-box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, 0.75);
+         box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, 0.75);
     }
     .blocks{
         display: flex;
@@ -136,12 +139,20 @@ footer{
     .blocks div{
         margin: 1rem;
         -webkit-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
     }
     .blocks :hover{
         background-color: #2f549b;
         transition: 0.5s;
+    }
+     .block-1:hover,
+     .block-2:hover,
+     .block-3:hover,
+     .block-4:hover {
+        -webkit-box-shadow: 10px 10px 5px -3px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 5px -3px rgba(0, 0, 0, 0.75);
+        box-shadow: 10px 10px 5px -3px rgba(0, 0, 0, 0.75);
     }
     .blocks :hover p{
         color: #fff;
@@ -173,7 +184,9 @@ box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
     .resource-body div:hover{
         transition: all 0.5s;
         background-color: #fff;
-
+        -webkit-box-shadow: 10px 10px 5px -7px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 5px -7px rgba(0, 0, 0, 0.75);
+         box-shadow: 10px 10px 5px -7px rgba(0, 0, 0, 0.75);
     }
 
     .resource-body div:hover h4{
